@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-DevSecOps-Tetris-Project.git'
+                git branch: 'master', url: 'https://github.com/EliseoCuevas/DevSecOps-Kubernetes-Project-GitOps-Docker-AWS-Terraform-Jenkins-ArgoCD.git'
             }
         }
         stage('Initializing Terraform') {
