@@ -85,7 +85,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/EliseoCuevas/DevSecOps-Kubernetes-Project-GitOps-Docker-AWS-Terraform-Jenkins-ArgoCD.git'
+                git branch: 'main', url: 'https://github.com/EliseoCuevas/DevSecOps-Kubernetes-Project-GitOps-Docker-AWS-Terraform-Jenkins-ArgoCD.git'
             }
         }
         stage('Update Deployment file') {
